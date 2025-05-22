@@ -77,6 +77,10 @@ h1 {
 }
 
 @media screen and (max-width: 450px) {
+    body {
+        padding: 15px;
+    }
+    
     .container1 {
         gap: 10px;
     }
