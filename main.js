@@ -52,12 +52,14 @@ const matchWinner = () => {
         gameWinner.innerText = "Player Wins the Game!";
         pScore.innerText = "";
        cScore.innerText = "";
+         paragraph.innerText = "";
         
     } else if (computerScore >= 3) {
         paragraph.innerText = "";
         gameWinner.innerText = "Computer Wins the Game!";
         cScore.innerText = "";
         pScore.innerText = "";
+         paragraph.innerText = "";
     };
 };
 
